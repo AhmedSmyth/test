@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for test-wobslq on 2025-07-30T14:36:52Z
+# fly.toml app configuration file generated for test-ugfd3a on 2025-07-30T14:42:33Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'test-wobslq'
+app = 'test-ugfd3a'
 primary_region = 'cdg'
 
 [build]
