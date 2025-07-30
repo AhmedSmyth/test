@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Fly.io Site</title>
+  <title>My Fly.io Site with ChatBot</title>
 </head>
 <body>
-  <h1>Hello, Fly.io World!</h1>
+  <h1>Welcome to My Fly.io Website!</h1>
+
+  <!-- ChatBot Script -->
+  <script src="https://cmd7q11701l0erwjp311cxhoe.agent.pa.smyth.ai/static/embodiment/chatBot/chatbot-v2.js"></script>
+  <script>
+    ChatBot.init({
+      domain: 'cmd7q11701l0erwjp311cxhoe.agent.pa.smyth.ai',
+      isChatOnly: false,
+      allowAttachments: false,
+      introMessage: 'Hello and welcome to chatting with your database!'
+      // You can add more settings here (colors, styles, etc.)
+    });
+  </script>
 </body>
 </html>
